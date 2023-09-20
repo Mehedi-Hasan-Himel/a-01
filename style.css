@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first-section{
+    display: flex;
+    padding-bottom: 50px;
+    background-color: #ede2e4;
+}
+.half-width{
+    width: 50%;
+    
+}
+
+.text{
+    margin-left: 60px;
+    margin-top: 65px;
+    
+}
+.text h1 {
+    font-size: 70px;
+    margin-bottom: 0;
+}
+.text p {
+    font-size: 18px;
+    margin: 0;
+}
+.text button{
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    border: 0;
+    background-color: #b0445c;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.half-width>img{
+    width: 435px;
+    height: 500px;
+    margin-left: 80px;
+}
+
+.second-section{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.third-section{
+    display: flex;
+    margin-top: 50px;
+    padding: 0 100px;
+}
+
+.third-section section{
+    margin: 10px;
+}
+
+
+
+.third-section .image-1{
+    background-color: #f3bfd8;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.third-section .image-2{
+    background-color: #b8e1e3;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+.third-section .image-3{
+    background-color: #d2ecb8;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+
+.third-section-text{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    margin-top: 15px;
+}
+.third-section-text p {
+    text-decoration: underline;
+}
+
+
+.five-section{
+    display: flex;
+    background-color: #e892a535;
+    margin-bottom: 100px;
+    
+}
+.five-section>.half-width{
+    width: 50%;
+    text-align: center;
+    justify-content: center;
+}
+
+.five-section .text{
+    margin-top: 120px;
+}
+
+.five-section .text h1{
+    font-size: 40px;
+   
+}
+.five-section .text> h1>span{
+    color: #54e559;
+}
+
+.five-section .image img{
+    width: 300px;
+    height: 420px;
+}
+
+.container-gallery{
+    margin: 0 100px;
+}
+
+.gallery{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.gallery img{
+    width: 250px;
+    height: 300px;
+    margin: 12px;
+}
+
+.container-contact{
+    margin: 0 100px;
+}
+
+.contact-section{
+    background-image: url("image/Rectangle\ 9.png");
+    margin-bottom: 50px;
+    height: 449px;
+    margin-top: 100px;
+}
+
+.contact-section > section {
+    text-align: center;
+    padding: 150px;
+}
+.contact-section section h1{
+    font-size: 40px;
+}
+
+
+.contact-section button{
+    width: 130px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #c63957;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    background-color: #f3a2c93f;
+    padding: 100px;
+}
+.about-us .about-text{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.about-text h1{
+    font-size: 60px;
+    text-decoration: underline;
+}
+.about-us h3{
+    font-size: 30px;
+}
+.about-us span{
+    color: #de5dbe;
+}
+.about-us .image{
+    padding: 25px;
+   
+}
+.about-us img{
+    width: 535px;
+    height: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 200px;
+    margin-top:10px;
+    background-color: black;
+    color:white ;
+    text-align:center ;
+}
+
+
+
+.footer p{
+    color:rgb(151, 131, 131) ;
+}
+.footer h3{
+    color:rgb(222, 206, 206) ;
+}
+
+.footer span{
+    color:rgb(253, 131, 131) ;
+}
